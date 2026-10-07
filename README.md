@@ -1,4 +1,5 @@
 # LoRa GPS Tracker Node (RP2040 + FreeRTOS + SX1262)
+# University of Notre Dame EE30132 Applied Embedded Systems Final Project
 
 Embedded C firmware for a battery-style GPS tracker node. It reads NMEA sentences from a GPS module over UART, extracts latitude and longitude, and sends them to a gateway over LoRa (903 MHz). Delivery is reliable: the node waits for an acknowledgment on a separate frequency and retries with randomized exponential backoff if none arrives.
 
