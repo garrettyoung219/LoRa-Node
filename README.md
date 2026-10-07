@@ -187,4 +187,4 @@ I'm listing these deliberately. They are the first things I'd fix with more time
 - SX126x driver: © Semtech Corporation, BSD-3-Clause (see headers in `sx126x.c` / `sx126x.h`).
 - FreeRTOS kernel: MIT License.
 - Raspberry Pi Pico SDK: BSD-3-Clause.
-- Application code: written as a course project.
+- Application code: written as the University of Notre Dame EE30132 final project.
